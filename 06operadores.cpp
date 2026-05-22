@@ -11,10 +11,16 @@ int main() {
     && : esto significa AND
     ||: esto significa OR
     NOT: esto sirve para preguntar en negativo 
-    */
+    
    int a = 10, b = 5;
    double c = 5.5;
    cout << a + b << endl;
    cout << (a<b) << endl;
    cout << (a>5 && b<10) << endl;
+*/
+
+float a = 10;
+a /= 30;
+cout << a;
+
 }

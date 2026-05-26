@@ -9,7 +9,7 @@ int main() {
     return 0;
 }
 /*
-la libreria <stdio.h> significa starndar input output header, en lugar de cout y cin utiliza las funciones printf() scanf()
+la libreria <stdio.h> significa standar input output header, en lugar de cout y cin utiliza las funciones printf() scanf()
 .- algunas funciones de lenguaje c no van a ser ejecutadas en todos los sistemas operativos, en mi caso tengo una mac, por ejemplo
 a veces la funcion, system() no funciona en mac y windows.
 nota: cuando se escribe codigo y lo guardamos, el compilador sobreescribe tu archivo ejecutable. en proyectos reales, no compilas archivos por archivos manualmente, 

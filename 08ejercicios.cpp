@@ -91,7 +91,7 @@ int main() {
     if (numero > 0)
         cout << "el numero es poisitivo" << endl;
     else if (numero < 0)
-        cout << "el numero es negatico" << endl;
+        cout << "el numero es negativo" << endl;
     else 
         cout << "numero es igual a 0" << endl;
         return 0;
@@ -249,6 +249,8 @@ int main() {
     return 0; 
 }
 */
+
+//Has un programa que te haga elegir que operacion quieres hacer  suma: a, resta: b, multiplicacion: c, division d. Y luego que te pida dos digitos para hacer esa operación, también si ingresas una opción que no existe, que te diga, la operación no existe
 
 
 

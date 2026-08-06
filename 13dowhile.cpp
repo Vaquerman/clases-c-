@@ -14,12 +14,12 @@ int main(){
 
 
 /*
+============================================================
 saca el promedio general de la materia del alumno
 la practica vale 30%
 la teoria 60%
 participacion 10%
 ninguna calificaicon debe de ser mayor a 10
-*/
 #include<iostream>
 using namespace std;
 int main(){
@@ -34,6 +34,22 @@ int main(){
         cout<<"Ingrese nueva mente la calificacion de la practica"<<endl;
         cin>>practica;
     }
-
-
 }
+*/
+
+#include<iostream>
+using namespace std;
+int main(){
+    int i;
+    int detener;
+    cout<<"Ingresa el numero con el que quieres que empieze el ciclo: "<<endl;
+    cin>>i;
+    cout<<"INgresa el numero en el que quieras que se detenga tu bucle: "<<endl;
+    cin>>detener;
+    do{
+        cout<<i<<endl;
+        i++;
+    }while(i<=detener);
+    return 0;
+}
+
